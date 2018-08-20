@@ -67,17 +67,17 @@ OpSelect
 Set-ExecutionPolicy Bypass -Scope Process
 
 If ($OptionSelected -eq 1){
-cd C:\PS_Scripts
+cd "C:\PS_Scripts\Interactive Prompt Scripts"
 & .\Healthservice.PS1
 }
 
 If ($OptionSelected -eq 3){
-cd C:\PS_Scripts
+cd "C:\PS_Scripts\Interactive Prompt Scripts"
 & .\LowDiskSpace.ps1
 }
 
 If ($OptionSelected -eq 4){
-cd C:\PS_Scripts
+cd "C:\PS_Scripts\Interactive Prompt Scripts"
 & .\GetClusterInfo.ps1
 }
 

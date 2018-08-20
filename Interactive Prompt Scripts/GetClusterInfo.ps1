@@ -1,5 +1,5 @@
 ﻿
-Invoke-Command -computername $ServerName -Scriptblock {
+Invoke-Command -computername $ServerName -cred $cred -Scriptblock {
 
 import-module Failoverclusters
 
